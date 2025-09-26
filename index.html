@@ -338,227 +338,265 @@
             <div class="form-section">
                 <h2 class="section-title">1. Diferenciación Personal</h2>
                 
-                <label class="question">¿Qué te hace única frente a otros profesionales de tu sector?</label>
+                <label class="question">Si fueras un elemento de la naturaleza, ¿con cuál te identificas más?</label>
                 <div class="options">
                     <label class="option-item">
-                        <input type="checkbox" name="unique" value="experiencia"> Mi experiencia y trayectoria
+                        <input type="radio" name="nature_element" value="cielo"> Cielo 🌌 (amplitud, visión, ideas)
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="unique" value="conexion"> Mi forma cercana y humana de conectar con las personas
+                        <input type="radio" name="nature_element" value="tierra"> Tierra 🌱 (raíces, estabilidad, cuidado)
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="unique" value="metodologia"> Mi metodología o forma de trabajo propia
+                        <input type="radio" name="nature_element" value="agua"> Agua 🌊 (adaptabilidad, fluidez, calma)
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="unique" value="vision"> Mi visión innovadora o disruptiva
-                    </label>
-                    <label class="option-item">
-                        <input type="checkbox" name="unique" value="otro"> Otro
+                        <input type="radio" name="nature_element" value="fuego"> Fuego 🔥 (energía, pasión, transformación)
                     </label>
                 </div>
-                <input type="text" class="text-input" name="unique_other" placeholder="Especifica otro elemento diferenciador">
                 
-                <label class="question">¿Hay un color nuevo que quieras integrar (ejemplo: tonos más frescos, modernos o ligados a tu personalidad)?</label>
-                <input type="text" class="text-input" name="new_color" placeholder="Describe el color o tono que te gustaría incorporar">
+                <label class="question">Cuando alguien te escucha o trabaja contigo, ¿qué debería quedar grabado en su mente?</label>
+                <div class="options">
+                    <label class="option-item">
+                        <input type="radio" name="impression" value="calidez"> Tu forma cálida de conectar
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="impression" value="enseñanza"> Tu capacidad de enseñar algo nuevo
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="impression" value="energia"> Tu energía transformadora
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="impression" value="otro"> Otro
+                    </label>
+                </div>
+                <input type="text" class="text-input" name="impression_other" placeholder="Especifica otro elemento">
             </div>
             
             <!-- Sección 2: Percepción y Valores -->
             <div class="form-section">
                 <h2 class="section-title">2. Percepción y Valores</h2>
                 
-                <label class="question">¿Cómo te gustaría que las personas te perciban y hablen de ti?</label>
+                <label class="question">Imagina que tus clientes te describen en una reunión donde tú no estás presente: ¿qué adjetivo preferirías que usen primero?</label>
                 <div class="options">
                     <label class="option-item">
-                        <input type="radio" name="perception" value="confiable"> Como alguien confiable y profesional
+                        <input type="radio" name="description" value="inspiradora"> Inspiradora
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="perception" value="inspiradora"> Como una guía inspiradora y motivadora
+                        <input type="radio" name="description" value="profesional"> Profesional
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="perception" value="cercana"> Como una experta cercana y accesible
+                        <input type="radio" name="description" value="cercana"> Cercana
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="perception" value="lider"> Como una líder visionaria y estratégica
-                    </label>
-                    <label class="option-item">
-                        <input type="radio" name="perception" value="otro"> Otro
+                        <input type="radio" name="description" value="estratega"> Estratega
                     </label>
                 </div>
-                <input type="text" class="text-input" name="perception_other" placeholder="Especifica otra percepción">
                 
-                <label class="question">¿Cuáles son los valores que deben estar siempre presentes en tu marca personal?</label>
+                <label class="question">Escoge tres palabras que sientas como tus pilares internos:</label>
                 <div class="options">
                     <label class="option-item">
-                        <input type="checkbox" name="values" value="honestidad"> Honestidad
+                        <input type="checkbox" name="pillars" value="autenticidad"> Autenticidad
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="values" value="empatia"> Empatía
+                        <input type="checkbox" name="pillars" value="empatia"> Empatía
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="values" value="innovacion"> Innovación
+                        <input type="checkbox" name="pillars" value="liderazgo"> Liderazgo
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="values" value="responsabilidad"> Responsabilidad
+                        <input type="checkbox" name="pillars" value="innovacion"> Innovación
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="values" value="inspiracion"> Inspiración
+                        <input type="checkbox" name="pillars" value="disciplina"> Disciplina
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="values" value="liderazgo"> Liderazgo
-                    </label>
-                    <label class="option-item">
-                        <input type="checkbox" name="values" value="otro"> Otro
+                        <input type="checkbox" name="pillars" value="otro"> Otro
                     </label>
                 </div>
-                <input type="text" class="text-input" name="values_other" placeholder="Especifica otro valor">
+                <input type="text" class="text-input" name="pillars_other" placeholder="Especifica otro pilar">
             </div>
             
-            <!-- Sección 3: Misión y Emoción -->
+            <!-- Sección 3: Misión y Propósito -->
             <div class="form-section">
-                <h2 class="section-title">3. Misión y Emoción</h2>
+                <h2 class="section-title">3. Misión y Propósito</h2>
                 
-                <label class="question">Si tu marca personal fuera una misión clara, ¿cómo la definirías?</label>
+                <label class="question">Si tu trabajo fuera un viaje, ¿cómo sería el destino final al que guías a otros?</label>
                 <div class="options">
                     <label class="option-item">
-                        <input type="radio" name="mission" value="transformacion"> Ayudar a las personas a transformarse y alcanzar su mejor versión
+                        <input type="radio" name="destination" value="mejor_version"> Alcanzar una mejor versión de sí mismos
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="mission" value="inspirar"> Inspirar con mi ejemplo y conocimiento
+                        <input type="radio" name="destination" value="claridad"> Encontrar claridad y confianza
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="mission" value="soluciones"> Brindar soluciones prácticas y efectivas a través de mi experiencia
+                        <input type="radio" name="destination" value="inspiracion"> Sentirse inspirados y motivados
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="mission" value="impacto"> Generar impacto positivo en la vida de quienes me rodean
+                        <input type="radio" name="destination" value="transformacion"> Transformar sus resultados
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="mission" value="otro"> Otro
+                        <input type="radio" name="destination" value="otro"> Otro
                     </label>
                 </div>
-                <input type="text" class="text-input" name="mission_other" placeholder="Define tu misión personal">
+                <input type="text" class="text-input" name="destination_other" placeholder="Especifica otro destino">
                 
-                <label class="question">¿Qué deben sentir las personas al trabajar contigo o al consumir tu contenido?</label>
-                <div class="options">
-                    <label class="option-item">
-                        <input type="checkbox" name="feelings" value="confianza"> Confianza y seguridad
-                    </label>
-                    <label class="option-item">
-                        <input type="checkbox" name="feelings" value="inspiracion"> Inspiración y motivación
-                    </label>
-                    <label class="option-item">
-                        <input type="checkbox" name="feelings" value="tranquilidad"> Tranquilidad y claridad
-                    </label>
-                    <label class="option-item">
-                        <input type="checkbox" name="feelings" value="energia"> Energía y entusiasmo
-                    </label>
-                    <label class="option-item">
-                        <input type="checkbox" name="feelings" value="otro"> Otro
-                    </label>
+                <label class="question">En una escala del 1 al 5, ¿qué tanto sientes que tu rol es acompañar (1) o transformar radicalmente (5)?</label>
+                <div class="scale-options">
+                    <div class="scale-option" data-value="1">1 (Acompañar)</div>
+                    <div class="scale-option" data-value="2">2</div>
+                    <div class="scale-option" data-value="3">3</div>
+                    <div class="scale-option" data-value="4">4</div>
+                    <div class="scale-option" data-value="5">5 (Transformar)</div>
                 </div>
-                <input type="text" class="text-input" name="feelings_other" placeholder="Especifica otra emoción">
+                <input type="hidden" name="role_scale" id="roleScale">
             </div>
             
-            <!-- Sección 4: Posicionamiento y Esencia -->
+            <!-- Sección 4: Emoción y Experiencia -->
             <div class="form-section">
-                <h2 class="section-title">4. Posicionamiento y Esencia</h2>
+                <h2 class="section-title">4. Emoción y Experiencia</h2>
                 
-                <label class="question">¿Cómo te gustaría que te reconozcan en tu sector?</label>
+                <label class="question">Cuando alguien termina una sesión contigo, ¿qué emoción quieres que se lleve en su corazón?</label>
                 <div class="options">
                     <label class="option-item">
-                        <input type="radio" name="positioning" value="especialista"> Como especialista en mi campo
+                        <input type="radio" name="emotion" value="tranquilidad"> Tranquilidad
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="positioning" value="referente"> Como referente inspirador
+                        <input type="radio" name="emotion" value="entusiasmo"> Entusiasmo
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="positioning" value="innovadora"> Como innovadora que marca tendencia
+                        <input type="radio" name="emotion" value="inspiracion"> Inspiración
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="positioning" value="mentora"> Como mentora o guía de confianza
+                        <input type="radio" name="emotion" value="seguridad"> Seguridad
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="positioning" value="otro"> Otro
+                        <input type="radio" name="emotion" value="otro"> Otro
                     </label>
                 </div>
-                <input type="text" class="text-input" name="positioning_other" placeholder="Especifica otro posicionamiento">
+                <input type="text" class="text-input" name="emotion_other" placeholder="Especifica otra emoción">
                 
-                <label class="question">Si tuvieras que elegir una palabra o frase que resuma tu esencia, ¿cuál sería?</label>
+                <label class="question">Si tu marca fuera una melodía, ¿sería más:</label>
                 <div class="options">
                     <label class="option-item">
-                        <input type="radio" name="essence" value="transformacion"> "Transformación"
+                        <input type="radio" name="melody" value="suave"> Suave y armónica 🎶
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="essence" value="cercania"> "Cercanía que inspira"
+                        <input type="radio" name="melody" value="fuerte"> Fuerte y energética 🎸
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="essence" value="innovacion"> "Innovación con propósito"
+                        <input type="radio" name="melody" value="clasica"> Clásica y elegante 🎻
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="essence" value="estrategia"> "Estrategia con alma"
-                    </label>
-                    <label class="option-item">
-                        <input type="radio" name="essence" value="otro"> Otro
+                        <input type="radio" name="melody" value="moderna"> Moderna y vibrante 🎤
                     </label>
                 </div>
-                <input type="text" class="text-input" name="essence_other" placeholder="Escribe tu palabra o frase esencial">
+            </div>
+            
+            <!-- Sección 5: Posicionamiento y Esencia -->
+            <div class="form-section">
+                <h2 class="section-title">5. Posicionamiento y Esencia</h2>
                 
-                <label class="question">Completa las frases para encontrar el tono único de tu marca personal:</label>
-                <p style="margin-bottom: 10px;">Mariale Berti es sinónimo de...</p>
+                <label class="question">Imagina que en 6 meses alguien te presenta en un evento. ¿Qué frase te gustaría que digan?</label>
+                <div class="options">
+                    <label class="option-item">
+                        <input type="radio" name="presentation" value="especialista"> "La especialista en su campo"
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="presentation" value="lider"> "Una líder inspiradora"
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="presentation" value="innovadora"> "Innovadora y disruptiva"
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="presentation" value="mentora"> "Mentora de confianza"
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="presentation" value="otro"> Otro
+                    </label>
+                </div>
+                <input type="text" class="text-input" name="presentation_other" placeholder="Especifica otra frase">
+                
+                <label class="question">Completa con una sola palabra:</label>
+                <p style="margin-bottom: 10px;">Mariale Berti es sinónimo de:</p>
                 <input type="text" class="text-input" name="synonym" placeholder="Escribe aquí">
                 
-                <p style="margin-bottom: 10px;">Cuando las personas piensan en mí, quiero que recuerden...</p>
+                <p style="margin-bottom: 10px;">Cuando piensan en mí, quiero que recuerden:</p>
                 <input type="text" class="text-input" name="memory" placeholder="Escribe aquí">
                 
-                <p style="margin-bottom: 10px;">Mi promesa principal es...</p>
+                <p style="margin-bottom: 10px;">Mi promesa principal es:</p>
                 <input type="text" class="text-input" name="promise" placeholder="Escribe aquí">
             </div>
             
-            <!-- Sección 5: Estilo Visual -->
+            <!-- Sección 6: Estilo de Comunicación -->
             <div class="form-section">
-                <h2 class="section-title">5. Estilo Visual</h2>
+                <h2 class="section-title">6. Estilo de Comunicación</h2>
                 
-                <label class="question">¿Prefieres mantener un estilo serif elegante y sofisticado, o pasar a un estilo más moderno/sencillo/sin serif?</label>
+                <label class="question">Si recibes a un cliente nuevo, ¿qué tono te resulta más natural?</label>
                 <div class="options">
                     <label class="option-item">
-                        <input type="radio" name="typography" value="serif"> Serif elegante y sofisticado
+                        <input type="radio" name="tone" value="corporativo"> Corporativo formal → "Buenas tardes Sr. Javier"
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="typography" value="sans"> Moderno/sencillo/sin serif
+                        <input type="radio" name="tone" value="cercano"> Cercano y humano → "¡Qué gusto tenerte aquí Javier, comencemos!"
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="tone" value="inspirador"> Inspirador → "Hoy comenzamos un viaje transformador, Javier"
                     </label>
                 </div>
                 
-                <label class="question">¿Quieres que tu marca refleje más minimalismo, más orgánico o más corporativo?</label>
+                <label class="question">Cuando compartes un mensaje, ¿qué prefieres?</label>
                 <div class="options">
                     <label class="option-item">
-                        <input type="radio" name="style" value="minimalismo"> Minimalismo
+                        <input type="radio" name="message_style" value="brevedad"> Brevedad y claridad
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="style" value="organico"> Orgánico
+                        <input type="radio" name="message_style" value="detalle"> Detalle y explicación
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="style" value="corporativo"> Corporativo
+                        <input type="radio" name="message_style" value="historia"> Historia con emoción
                     </label>
                 </div>
-                
-                <label class="question">¿Deseas mantener algún símbolo o prefieres trabajar con una identidad tipográfica pura basada solo en tu nombre "Mariale Berti"?</label>
-                <div class="options">
-                    <label class="option-item">
-                        <input type="radio" name="logo_type" value="tipografico"> Solo tipografía (nombre)
-                    </label>
-                    <label class="option-item">
-                        <input type="radio" name="logo_type" value="con_simbolo"> Tipografía + símbolo/isotipo
-                    </label>
-                </div>
-                
-                <label class="question">En caso de mantener un símbolo, ¿qué elementos conectarían mejor con tu identidad personal actual?</label>
-                <input type="text" class="text-input" name="symbol_elements" placeholder="Ejemplo: iniciales MB, un trazo artístico, un ícono minimalista">
             </div>
             
-            <!-- Sección 6: Conceptos y Comunicación -->
+            <!-- Sección 7: Identidad Visual Proyectada -->
             <div class="form-section">
-                <h2 class="section-title">6. Conceptos y Comunicación</h2>
+                <h2 class="section-title">7. Identidad Visual Proyectada</h2>
                 
-                <label class="question">De los conceptos anteriores (naturaleza 🌿, aura ✨, feminidad, conexión), ¿cuáles aún sientes que representan tu identidad personal?</label>
+                <label class="question">Si tu marca fuera un paisaje, ¿cuál sería?</label>
+                <div class="options">
+                    <label class="option-item">
+                        <input type="radio" name="landscape" value="montaña"> Montaña nevada (minimalismo, claridad)
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="landscape" value="bosque"> Bosque verde (orgánico, humano)
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="landscape" value="ciudad"> Ciudad moderna (corporativo, estratégico)
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="landscape" value="playa"> Playa luminosa (energía, vitalidad)
+                    </label>
+                </div>
+                
+                <label class="question">En cuanto a colores, ¿qué te atrae más?</label>
+                <div class="options">
+                    <label class="option-item">
+                        <input type="radio" name="color_preference" value="neutros"> Neutros y elegantes (blanco, negro, dorado)
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="color_preference" value="vibrantes"> Matices vibrantes (rosados, lilas, verdes frescos)
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="color_preference" value="combinacion"> Combinación de ambos
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Sección 8: Conceptos Clave -->
+            <div class="form-section">
+                <h2 class="section-title">8. Conceptos Clave</h2>
+                
+                <label class="question">De los conceptos trabajados antes, ¿cuáles aún sientes que vibran contigo?</label>
                 <div class="options">
                     <label class="option-item">
                         <input type="checkbox" name="concepts_keep" value="naturaleza"> Naturaleza 🌿
@@ -567,14 +605,14 @@
                         <input type="checkbox" name="concepts_keep" value="aura"> Aura ✨
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="concepts_keep" value="feminidad"> Feminidad
+                        <input type="checkbox" name="concepts_keep" value="feminidad"> Feminidad 🌸
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="concepts_keep" value="conexion"> Conexión
+                        <input type="checkbox" name="concepts_keep" value="conexion"> Conexión 🔗
                     </label>
                 </div>
                 
-                <label class="question">¿Cuál de esos conceptos ya no aplica a ti como persona/marca y prefieres dejar atrás?</label>
+                <label class="question">¿Cuál prefieres dejar atrás?</label>
                 <div class="options">
                     <label class="option-item">
                         <input type="checkbox" name="concepts_discard" value="naturaleza"> Naturaleza 🌿
@@ -583,149 +621,90 @@
                         <input type="checkbox" name="concepts_discard" value="aura"> Aura ✨
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="concepts_discard" value="feminidad"> Feminidad
+                        <input type="checkbox" name="concepts_discard" value="feminidad"> Feminidad 🌸
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="concepts_discard" value="conexion"> Conexión
+                        <input type="checkbox" name="concepts_discard" value="conexion"> Conexión 🔗
                     </label>
                 </div>
                 
-                <label class="question">¿Hay nuevos conceptos que quisieras incorporar? (ejemplo: liderazgo, autenticidad, crecimiento personal, inspiración, profesionalismo)</label>
-                <input type="text" class="text-input" name="new_concepts" placeholder="Lista los nuevos conceptos que quieres incorporar">
-                
-                <label class="question">¿Cómo quieres que sea tu tono de voz como marca personal?</label>
+                <label class="question">¿Qué nuevos conceptos resuenan más contigo hoy?</label>
                 <div class="options">
                     <label class="option-item">
-                        <input type="radio" name="tone" value="cercano"> Cercano y emocional 💫
+                        <input type="checkbox" name="new_concepts" value="liderazgo"> Liderazgo
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="tone" value="profesional"> Profesional y académico 📚
+                        <input type="checkbox" name="new_concepts" value="autenticidad"> Autenticidad
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="tone" value="inspirador"> Inspirador y aspiracional 🌟
+                        <input type="checkbox" name="new_concepts" value="crecimiento"> Crecimiento personal
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="tone" value="otro"> Otro
+                        <input type="checkbox" name="new_concepts" value="profesionalismo"> Profesionalismo
+                    </label>
+                    <label class="option-item">
+                        <input type="checkbox" name="new_concepts" value="otro"> Otro
                     </label>
                 </div>
-                <input type="text" class="text-input" name="tone_other" placeholder="Especifica otro tono de voz">
+                <input type="text" class="text-input" name="new_concepts_other" placeholder="Especifica otros conceptos">
             </div>
             
-            <!-- Sección 7: Paleta de Colores -->
+            <!-- Sección 9: Arquitectura de Marca -->
             <div class="form-section">
-                <h2 class="section-title">7. Paleta de Colores</h2>
+                <h2 class="section-title">9. Arquitectura de Marca</h2>
                 
-                <label class="question">Para Mariale Berti, ¿prefieres mantener tonos neutros y elegantes o agregar matices que transmitan más vitalidad?</label>
-                <div class="color-options">
-                    <div class="color-option" data-value="neutros">
-                        <strong>Tonos neutros y elegantes</strong>
-                        <p>Blanco, negro, beige, dorado</p>
-                    </div>
-                    <div class="color-option" data-value="vibrantes">
-                        <strong>Matices vibrantes</strong>
-                        <p>Rosados, verdes, lilas</p>
-                    </div>
-                    <div class="color-option" data-value="mezcla">
-                        <strong>Combinación de ambos</strong>
-                        <p>Neutros con toques de color</p>
-                    </div>
-                </div>
-                <input type="hidden" name="color_preference" id="colorPreference">
-                
-                <label class="question">¿Quieres que tu paleta refleje más un estilo lujo atemporal o un estilo vibrante y humano?</label>
+                <label class="question">Si tu marca fuera una casa, ¿cómo estaría organizada?</label>
                 <div class="options">
                     <label class="option-item">
-                        <input type="radio" name="palette_style" value="lujo"> Lujo atemporal
+                        <input type="radio" name="brand_architecture" value="monolitica"> Una sola casa grande con todo dentro (monolítica)
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="palette_style" value="vibrante"> Vibrante y humano
-                    </label>
-                </div>
-            </div>
-            
-            <!-- Sección 8: Arquitectura de Marca -->
-            <div class="form-section">
-                <h2 class="section-title">8. Arquitectura de Marca</h2>
-                
-                <label class="question">¿Cómo visualizas la estructura de tu marca personal en relación con posibles servicios o productos futuros?</label>
-                <div class="options">
-                    <label class="option-item">
-                        <input type="radio" name="brand_architecture" value="monolitica"> Marca monolítica (todo bajo "Mariale Berti")
+                        <input type="radio" name="brand_architecture" value="endosada"> Una casa principal con habitaciones para cada proyecto (endosada)
                     </label>
                     <label class="option-item">
-                        <input type="radio" name="brand_architecture" value="endosada"> Marca endosada (marca principal con submarcas)
-                    </label>
-                    <label class="option-item">
-                        <input type="radio" name="brand_architecture" value="independiente"> Marcas independientes para diferentes servicios
+                        <input type="radio" name="brand_architecture" value="independiente"> Varias casas distintas en un mismo terreno (independientes)
                     </label>
                 </div>
                 
-                <label class="question">En una escala del 1 al 5, ¿qué tan importante es para ti la flexibilidad de tu identidad visual para adaptarse a diferentes contextos?</label>
+                <label class="question">En una escala del 1 al 5, ¿qué tan importante es que tu identidad se adapte a muchos contextos (desde Instagram hasta un congreso internacional)?</label>
                 <div class="scale-options">
-                    <div class="scale-option" data-value="1">1 (Poca importancia)</div>
+                    <div class="scale-option" data-value="1">1 (Poco importante)</div>
                     <div class="scale-option" data-value="2">2</div>
-                    <div class="scale-option" data-value="3">3 (Importancia media)</div>
+                    <div class="scale-option" data-value="3">3</div>
                     <div class="scale-option" data-value="4">4</div>
                     <div class="scale-option" data-value="5">5 (Muy importante)</div>
                 </div>
-                <input type="hidden" name="flexibility_importance" id="flexibilityImportance">
-                
-                <label class="question">¿Qué elementos visuales consideras indispensables para mantener la coherencia de tu marca?</label>
-                <div class="options">
-                    <label class="option-item">
-                        <input type="checkbox" name="essential_elements" value="logo"> Logo principal
-                    </label>
-                    <label class="option-item">
-                        <input type="checkbox" name="essential_elements" value="colores"> Paleta de colores
-                    </label>
-                    <label class="option-item">
-                        <input type="checkbox" name="essential_elements" value="tipografia"> Tipografía
-                    </label>
-                    <label class="option-item">
-                        <input type="checkbox" name="essential_elements" value="fotografia"> Estilo de fotografía
-                    </label>
-                    <label class="option-item">
-                        <input type="checkbox" name="essential_elements" value="tono"> Tono de voz
-                    </label>
-                    <label class="option-item">
-                        <input type="checkbox" name="essential_elements" value="otro"> Otro
-                    </label>
-                </div>
-                <input type="text" class="text-input" name="essential_elements_other" placeholder="Especifica otros elementos indispensables">
+                <input type="hidden" name="adaptability_importance" id="adaptabilityImportance">
             </div>
             
-            <!-- Sección 9: Análisis de Consistencia Visual -->
+            <!-- Sección 10: Consistencia y Futuro -->
             <div class="form-section">
-                <h2 class="section-title">9. Análisis de Consistencia Visual</h2>
+                <h2 class="section-title">10. Consistencia y Futuro</h2>
                 
-                <label class="question">¿En qué medios o plataformas será más visible tu marca?</label>
+                <label class="question">¿En qué escenario imaginas que tu marca brillará más en los próximos meses?</label>
                 <div class="options">
                     <label class="option-item">
-                        <input type="checkbox" name="platforms" value="redes_sociales"> Redes sociales (Instagram, LinkedIn, etc.)
+                        <input type="checkbox" name="scenarios" value="redes_sociales"> Redes sociales (Instagram, LinkedIn, etc.)
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="platforms" value="sitio_web"> Sitio web personal
+                        <input type="checkbox" name="scenarios" value="eventos"> Conferencias / Eventos
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="platforms" value="eventos"> Eventos presenciales o virtuales
+                        <input type="checkbox" name="scenarios" value="publicaciones"> Libros o publicaciones
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="platforms" value="material_impreso"> Material impreso (tarjetas, folletos)
+                        <input type="checkbox" name="scenarios" value="mentorias"> Mentorías privadas
                     </label>
                     <label class="option-item">
-                        <input type="checkbox" name="platforms" value="presentaciones"> Presentaciones profesionales
-                    </label>
-                    <label class="option-item">
-                        <input type="checkbox" name="platforms" value="otro"> Otro
+                        <input type="checkbox" name="scenarios" value="otro"> Otro
                     </label>
                 </div>
-                <input type="text" class="text-input" name="platforms_other" placeholder="Especifica otras plataformas">
+                <input type="text" class="text-input" name="scenarios_other" placeholder="Especifica otros escenarios">
                 
-                <label class="question">Matriz de consistencia visual: ¿Qué tan importante es cada aspecto para mantener la identidad de tu marca?</label>
+                <label class="question">Marca del 1 al 5 la importancia que das a cada aspecto:</label>
                 <div class="matrix-grid">
                     <div class="matrix-item">
-                        <div class="matrix-title">Coherencia cromática</div>
-                        <p>Uso consistente de la paleta de colores</p>
+                        <div class="matrix-title">Coherencia de colores</div>
                         <div class="scale-options">
                             <div class="scale-option" data-value="1">1</div>
                             <div class="scale-option" data-value="2">2</div>
@@ -733,11 +712,10 @@
                             <div class="scale-option" data-value="4">4</div>
                             <div class="scale-option" data-value="5">5</div>
                         </div>
-                        <input type="hidden" name="color_consistency" class="matrixInput">
+                        <input type="hidden" name="color_coherence" class="matrixInput">
                     </div>
                     <div class="matrix-item">
-                        <div class="matrix-title">Consistencia tipográfica</div>
-                        <p>Uso uniforme de fuentes y jerarquías</p>
+                        <div class="matrix-title">Consistencia de tipografías</div>
                         <div class="scale-options">
                             <div class="scale-option" data-value="1">1</div>
                             <div class="scale-option" data-value="2">2</div>
@@ -748,8 +726,7 @@
                         <input type="hidden" name="typography_consistency" class="matrixInput">
                     </div>
                     <div class="matrix-item">
-                        <div class="matrix-title">Alineación con valores</div>
-                        <p>La estética refleja los valores de marca</p>
+                        <div class="matrix-title">Alineación con tus valores</div>
                         <div class="scale-options">
                             <div class="scale-option" data-value="1">1</div>
                             <div class="scale-option" data-value="2">2</div>
@@ -760,8 +737,7 @@
                         <input type="hidden" name="values_alignment" class="matrixInput">
                     </div>
                     <div class="matrix-item">
-                        <div class="matrix-title">Adaptabilidad contextual</div>
-                        <p>Capacidad de adaptarse a diferentes contextos</p>
+                        <div class="matrix-title">Adaptabilidad a contextos</div>
                         <div class="scale-options">
                             <div class="scale-option" data-value="1">1</div>
                             <div class="scale-option" data-value="2">2</div>
@@ -773,19 +749,21 @@
                     </div>
                 </div>
                 
-                <label class="question">¿Existen elementos visuales de tu marca actual que consideras deben mantenerse sí o sí?</label>
-                <textarea name="must_keep_elements" placeholder="Describe los elementos que son no negociables en tu identidad visual"></textarea>
-            </div>
-            
-            <!-- Sección 10: Comentarios Adicionales -->
-            <div class="form-section">
-                <h2 class="section-title">10. Comentarios Adicionales</h2>
-                
-                <label class="question">¿Qué palabras o frases sientes que describen mejor tu esencia y que deberían reflejarse en tu bio o mensajes principales?</label>
-                <textarea name="essence_words" placeholder="Escribe las palabras o frases que mejor te describen"></textarea>
-                
-                <label class="question">¿Quieres añadir algo más o dejar una nota al equipo de diseño?</label>
-                <textarea name="additional_notes" placeholder="Escribe aquí cualquier comentario adicional..."></textarea>
+                <label class="question">Y para cerrar: si tu marca fuera una obra de arte, ¿qué tipo sería?</label>
+                <div class="options">
+                    <label class="option-item">
+                        <input type="radio" name="art_type" value="cuadro_clasico"> Un cuadro clásico 🎨 (atemporal, serio)
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="art_type" value="escultura_moderna"> Una escultura moderna 🗿 (minimalista, elegante)
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="art_type" value="mural_colorido"> Un mural colorido 🖌️ (energía, vitalidad)
+                    </label>
+                    <label class="option-item">
+                        <input type="radio" name="art_type" value="fotografia_bn"> Una fotografía en blanco y negro 📸 (sofisticada, profunda)
+                    </label>
+                </div>
             </div>
             
             <div class="actions">
@@ -803,10 +781,6 @@
             const progressFill = document.getElementById('progressFill');
             const progressText = document.getElementById('progressText');
             const resetBtn = document.getElementById('resetBtn');
-            const colorOptions = document.querySelectorAll('.color-option');
-            const colorPreference = document.getElementById('colorPreference');
-            const flexibilityOptions = document.querySelectorAll('.scale-option[data-value]');
-            const flexibilityImportance = document.getElementById('flexibilityImportance');
             const statusElement = document.getElementById('my-form-status');
             
             // Contar el número total de campos
@@ -841,9 +815,6 @@
                     }
                 });
                 
-                // Contar opciones de color seleccionadas
-                if (colorPreference.value !== '') answered++;
-                
                 // Contar opciones de escala seleccionadas
                 const scaleOptions = document.querySelectorAll('.scale-option.selected');
                 answered += scaleOptions.length;
@@ -856,22 +827,8 @@
                 progressText.textContent = percentage + '% completado';
             }
             
-            // Manejar selección de opciones de color
-            colorOptions.forEach(option => {
-                option.addEventListener('click', function() {
-                    // Remover selección anterior
-                    colorOptions.forEach(opt => opt.classList.remove('selected'));
-                    
-                    // Seleccionar opción actual
-                    this.classList.add('selected');
-                    colorPreference.value = this.getAttribute('data-value');
-                    
-                    updateProgress();
-                });
-            });
-            
             // Manejar selección de opciones de escala
-            flexibilityOptions.forEach(option => {
+            document.querySelectorAll('.scale-option').forEach(option => {
                 option.addEventListener('click', function() {
                     const parent = this.parentElement;
                     
@@ -883,14 +840,15 @@
                     // Seleccionar opción actual
                     this.classList.add('selected');
                     
-                    // Actualizar campo oculto si es el de flexibilidad
-                    if (parent.parentElement.querySelector('input[name="flexibility_importance"]')) {
-                        flexibilityImportance.value = this.getAttribute('data-value');
+                    // Actualizar campo oculto correspondiente
+                    const hiddenInput = parent.nextElementSibling;
+                    if (hiddenInput && (hiddenInput.tagName === 'INPUT' && hiddenInput.type === 'hidden')) {
+                        hiddenInput.value = this.getAttribute('data-value');
                     }
                     
                     // Actualizar campos de matriz
-                    const matrixInput = parent.nextElementSibling;
-                    if (matrixInput && matrixInput.classList.contains('matrixInput')) {
+                    const matrixInput = parent.parentElement.querySelector('.matrixInput');
+                    if (matrixInput) {
                         matrixInput.value = this.getAttribute('data-value');
                     }
                     
@@ -923,14 +881,12 @@
                     form.reset();
                     
                     // Limpiar selecciones visuales
-                    document.querySelectorAll('.option-item.selected, .color-option.selected, .scale-option.selected').forEach(element => {
+                    document.querySelectorAll('.option-item.selected, .scale-option.selected').forEach(element => {
                         element.classList.remove('selected');
                     });
                     
                     // Limpiar campos ocultos
-                    colorPreference.value = '';
-                    flexibilityImportance.value = '';
-                    document.querySelectorAll('.matrixInput').forEach(input => {
+                    document.querySelectorAll('input[type="hidden"]').forEach(input => {
                         input.value = '';
                     });
                     
@@ -970,14 +926,12 @@
                         form.reset();
                         
                         // Limpiar selecciones visuales
-                        document.querySelectorAll('.option-item.selected, .color-option.selected, .scale-option.selected').forEach(element => {
+                        document.querySelectorAll('.option-item.selected, .scale-option.selected').forEach(element => {
                             element.classList.remove('selected');
                         });
                         
                         // Limpiar campos ocultos
-                        colorPreference.value = '';
-                        flexibilityImportance.value = '';
-                        document.querySelectorAll('.matrixInput').forEach(input => {
+                        document.querySelectorAll('input[type="hidden"]').forEach(input => {
                             input.value = '';
                         });
                         
